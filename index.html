@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Kiem Tra</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Bài 1</h1>
+        <h1>Tính tổng các số nguyên tố trong khoảng a và b</h1>
+        <div>
+        <label for="a">Nhập số a:</label>
+        <input type="number" id="a" name="a" required>
+        </div>
+        <div>
+        <label for="b">Nhập số b:</label>
+        <input type="number" id="b" name="b" required>
+        </div>
+        <button onclick="calculate()">Tổng</button>
+        <div>
+        <p id="result"></p>
+        </div>
+
+        <div class="container">
+            <h1>Bài 2</h1>
+            <h2>Tam giác</h2>
+            <label for="size">Số hàng:</label>
+            <input type="number" id="size" min="1" max="10">
+            <button onclick="drawTriangle()">Vẽ tam giác</button>
+            <div class="result" id="result"></div>
+        </div>
+    </body>
+</html>
