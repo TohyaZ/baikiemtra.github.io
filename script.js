@@ -29,7 +29,7 @@ function isPrime(n) {
 function drawTriangle() {
     var size = parseInt(document.getElementById("size").value);
     if (size < 1 || size > 10) {
-    document.getElementById("result").innerHTML = "Số hàng không hợp lệ!";
+    document.getElementById("result-tg").innerHTML = "Số hàng không hợp lệ!";
     return;
     }
     var triangle = "";
@@ -39,5 +39,5 @@ function drawTriangle() {
     }
     triangle += "<br>";
     }
-    document.getElementById("result").innerHTML = triangle;
+    document.getElementById("result-tg").innerHTML = triangle;
 }

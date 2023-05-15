@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    background-color: white;
+    color:#151B32;
+    font-size: 15px;
+}
+
+.sectionHeader .navbar-nav li{
+    left:0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.sectionHeader h1 {
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.searchBar{
+    height: 50px;
+    width: 327px;
+}
+
+.container .col .col-item{
+    font-family: 'Poppins';
+    font-style: normal;
+
+    margin-top: 10px;
+}
+
+
+.container .col .col-item a{
+   border:1px solid ;
+   text-decoration: none;
+   border-radius: 10px;
+    font-size: 12px;
+  padding: 3px 10px;
+
+}
+
+.container .col{
+    gap:10px;
+    background-color:#FBFCFF;
+    border-radius: 20px;
+    padding:50px;
+}
+
+.sectionHeader .navbar-nav .nav-item a:hover{
+   color:white;
+   background-color:#849FFF;
+   padding:20px;
+}
